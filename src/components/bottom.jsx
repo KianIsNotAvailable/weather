@@ -1,17 +1,18 @@
 import React from 'react'
-
+import Wind from '../images/wind.png'
+import Humidity from '../images/humidity.png'
 export default function bottom() {
   return (
-    <div>
+    <div className='flex flex-row items-center justify-center space-x-10 py-20'>
         <div>
-            <img></img>
+            <img src={Wind}></img>
             <h3></h3>
-            <p></p>
+            <p>Wind Speed</p>
         </div>
         <div>
-            <img></img>
+            <img src={Humidity}></img>
             <h3></h3>
-            <p></p>
+            <p>Humidity</p>
         </div>
     </div>
   )
