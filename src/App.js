@@ -9,7 +9,7 @@ import Bottom from './components/bottom';
 function App() {
   return (
     <div className="App">
-      <div className='container shadow-2xl w-96 h-96 p-10 relative justify-center bg-slate-700'>
+      <div className='container m-auto shadow-2xl w-96 h-96 p-10 relative justify-center text-white bg-slate-700'>
         <Search/>
         <Display />
         <Bottom />
